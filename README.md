@@ -4,6 +4,10 @@
 
 Integrate UI5-Web-Components-based libraries in OpenUI5/SAPUI5
 
+1. lib/prebuild.js - prebuild task
+2. lib/middleware.js - UI5 middleware for serving web-components-based projects
+3. lib/task.js - UI5 build task for third-party libraries only
+
 ## Requirements and Setup
 
 WIP

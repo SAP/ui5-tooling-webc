@@ -9,6 +9,9 @@
     "hooks:pre-commit": "eslint lib",
     "hooks:commit-msg": "commitlint -e"
   },
+  "bin": {
+    "ui5-webc-prebuild": "bin/prebuild.js"
+  },
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@babel/plugin-transform-modules-amd": "^7.16.0",

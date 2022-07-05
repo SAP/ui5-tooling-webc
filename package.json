@@ -1,8 +1,8 @@
 {
-  "name": "@sap-webcomponents/ui5-tooling-webc",
+  "name": "@ui5/tooling-webc",
   "version": "0.1.0",
   "description": "UI5 Tooling Extensions to include UI5 Web Components projects into OpenUI5/SAPUI5",
-  "author": "Peter Muessig",
+  "author": "SAP SE",
   "license": "Apache-2.0",
   "scripts": {
     "prepare": "node ./.husky/skip.js || husky install",

@@ -10,7 +10,8 @@
     "hooks:commit-msg": "commitlint -e"
   },
   "bin": {
-    "ui5-webc-prebuild": "bin/prebuild.js"
+    "ui5-webc-prebuild": "bin/prebuild.js",
+    "ui5-webc-generate": "bin/generate.js"
   },
   "dependencies": {
     "@babel/core": "^7.16.0",

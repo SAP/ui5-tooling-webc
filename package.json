@@ -27,12 +27,14 @@
     "estraverse": "^5.3.0",
     "glob": "^7.2.0",
     "glob-promise": "^4.2.2",
+    "globby": "^13.1.2",
     "js-beautify": "^1.14.3",
     "json-beautify": "^1.1.1",
     "merge-deep": "^3.0.3",
     "micromatch": "^4.0.4",
     "reserved-words": "^0.1.2",
-    "resolve": "^1.21.0"
+    "resolve": "^1.21.0",
+    "slash": "^3.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "15.0.0",

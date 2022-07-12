@@ -29,11 +29,11 @@ you can have any UI5 Web Component as an OpenUI5 control!
 
    For example:
 
-    ```yaml
-    customConfiguration:
-      ui5-tooling-webc:
-        <YOUR CONFIGURATION GOES HERE>
-    ```
+```yaml
+customConfiguration:
+  ui5-tooling-webc:
+    <YOUR CONFIGURATION GOES HERE>
+```
 
    For more details on the supported `ui5-tooling-webc:` configuration settings, click [here](./docs/settings.md).
 

@@ -1,0 +1,3 @@
+# ui5-tooling-webc `ui5.yaml` configuration settings
+
+Work in progress....

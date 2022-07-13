@@ -5,6 +5,8 @@
   "author": "SAP SE",
   "license": "Apache-2.0",
   "scripts": {
+    "lint": "eslint lib",
+    "lintfix": "eslint lib --fix",
     "prepare": "node ./.husky/skip.js || husky install",
     "hooks:pre-commit": "eslint lib",
     "hooks:commit-msg": "commitlint -e"

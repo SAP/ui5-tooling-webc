@@ -36,3 +36,35 @@ The following rule governs code contributions:
 * We use GitHub issues to track bugs and enhancement requests.
 
 * Please provide as much context as possible when you open an issue. The information you provide must be comprehensive enough to reproduce that issue for the assignee.
+
+## Processes
+
+### How to Contribute?
+
+Make sure the change would be welcome (e.g. a bugfix or a useful feature); best do so by proposing it in a GitHub issue
+
+1. Create a branch forking the `SAP/ui5-tooling-webc` repository and do your change.
+
+2. Commit (with a commit message following the [conventional-commit](https://www.conventionalcommits.org/) syntax) and push your changes on that branch
+
+3. If your change fixes an issue reported at GitHub, add a [keyword](https://help.github.com/articles/closing-issues-using-keywords/) like `fix <issue ID>` to the commit message:
+
+4. Create a Pull Request to this repository
+
+5. Wait for our code review and approval, possibly enhancing your change on request
+
+   Note that the developers also have their regular duties, so depending on the required effort for reviewing, testing and clarification this may take a while
+
+6. Once the change has been approved we will inform you in a comment
+
+### How to Release?
+
+First, make sure that you pull the latest state of the GitHub repository and then proceed with the following steps:
+
+1. Update the version: `npm version patch|minor|major`
+
+2. Update the changelog: `npm run changelog`, commit and amend the version change from step 1: `git add . && git commit --amend --no-edit`
+
+3. Push the new commit and tag: `git push && git push --tags`
+
+A GitHub action will do the needful once the new tag has been pushed.

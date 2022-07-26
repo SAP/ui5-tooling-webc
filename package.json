@@ -10,6 +10,7 @@
     "lintfix": "eslint lib --fix",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "prepare": "node ./.husky/skip.js || husky install",
+    "version": "npm run changelog && git commit --all --amend --no-edit",
     "hooks:pre-commit": "eslint lib",
     "hooks:commit-msg": "commitlint -e"
   },

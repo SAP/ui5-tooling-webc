@@ -59,7 +59,7 @@ Make sure the change would be welcome (e.g. a bugfix or a useful feature); best 
 
 ### How to Release?
 
-> Make sure to use at least NPM v8.x!
+:warning: Make sure to use at least NPM v8.x!
 
 First, make sure that you pull the latest state of the GitHub repository and then proceed with the following steps:
 

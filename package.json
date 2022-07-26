@@ -19,7 +19,7 @@
     "ui5-webc-generate": "bin/generate.js"
   },
   "dependencies": {
-    "@babel/core": "^7.18.6",
+    "@babel/core": "^7.18.9",
     "@babel/plugin-transform-modules-amd": "^7.18.6",
     "@babel/plugin-transform-modules-umd": "^7.18.6",
     "@ui5/fs": "^2.0.6",
@@ -46,7 +46,7 @@
     "@commitlint/config-conventional": "17.0.3",
     "conventional-changelog-cli": "^2.2.2",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.19.0",
+    "eslint": "^8.20.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.2.4",

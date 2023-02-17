@@ -1,6 +1,6 @@
 {
   "name": "@ui5/tooling-webc",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "UI5 Tooling Extensions to include UI5 Web Components projects into OpenUI5/SAPUI5",
   "author": "SAP SE",
   "license": "Apache-2.0",

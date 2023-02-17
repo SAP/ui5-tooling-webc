@@ -24,7 +24,7 @@
     "@babel/plugin-transform-modules-umd": "^7.18.6",
     "@ui5/fs": "^2.0.6",
     "@ui5/logger": "^2.0.1",
-    "@ui5/project": "^2.6.0",
+    "@ui5/project": "^3.0.2",
     "babel-plugin-module-resolver": "^4.1.0",
     "babel-plugin-transform-dynamic-import": "^2.1.0",
     "babel-plugin-transform-es2015-modules-ui5": "^6.0.0-alpha.2",

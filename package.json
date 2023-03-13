@@ -1,6 +1,6 @@
 {
   "name": "@ui5/tooling-webc",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "UI5 Tooling Extensions to include UI5 Web Components projects into OpenUI5/SAPUI5",
   "author": "SAP SE",
   "license": "Apache-2.0",
@@ -22,6 +22,7 @@
     "@babel/core": "^7.18.9",
     "@babel/plugin-transform-modules-amd": "^7.18.6",
     "@ui5/project": "^3.0.3",
+    "babel-plugin-module-resolver": "^5.0.0",
     "babel-plugin-transform-dynamic-import": "^2.1.0",
     "glob": "^7.2.0",
     "globby": "^13.1.2",

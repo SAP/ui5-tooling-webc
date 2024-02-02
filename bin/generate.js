@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 
-require("../lib/generateManifest.js");
+require("../lib/generate.js");

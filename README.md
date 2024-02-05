@@ -24,6 +24,8 @@ lib
 └── task.js       // UI5 build task for third-party libraries only
 ```
 
+*Note: Starting from version `0.3.0` only the Custom Elements Manifest format is supported for the purpose of wrapper generation*
+
 ## Getting Started
 
 ### Requirements

@@ -1,5 +1,11 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/ui5-tooling-webc)](https://api.reuse.software/info/github.com/SAP/ui5-tooling-webc)
 
+--------------------
+
+**UI5 Tooling for Web Components has been deprecated and won’t be developed any further. The [`ui5-tooling-modules`](https://www.npmjs.com/package/ui5-tooling-modules) tooling extension can be used to generate the UI5 Control wrappers for [UI5 Web Components](https://sap.github.io/ui5-webcomponents/). With `ui5-tooling-modules` all UI5 Web Components can be used like regular npm modules by simply requiring them and use them like UI5 Controls in JS/TS or XML without any configuration.**
+
+--------------------
+
 # UI5 Tooling for Web Components
 
 Provides [UI5 Tooling](https://sap.github.io/ui5-tooling/) Extensions to include [UI5 Web Components](https://sap.github.io/ui5-webcomponents/) projects into [OpenUI5](https://openui5.org/) / [SAPUI5](https://ui5.sap.com).
